@@ -1,0 +1,242 @@
+body{
+    font-family: 'Noto Serif', serif; 
+     height: 20000px;
+    
+}
+
+.container{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+
+.nav2{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px ;
+}
+
+.account{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 14px;
+}
+.line{
+    width: 1px;
+    height: 20px;
+    background-color: bisque;
+}
+
+
+.hero-content h1{
+    font-size: 84px;
+    line-height: 112px; /* 133.333% */
+
+}
+
+.trip{
+    display: inline;
+    border-radius: 15px;
+    
+}
+.trip a{
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 18px 36px;
+    background: #FF715B;
+
+}
+
+.hero-content{
+    background: url('./hero-banner\ 2.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 800px;
+    position: relative;
+}
+
+.hero-banner{
+    position: absolute;
+     top: 45%;
+    transform: translateY(-45%);
+    left: 5%;
+
+}
+.main-content{
+    display: flex;
+    gap: 20px;
+}
+.main-cards h2{
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main-cards p{
+    color: #A79997;
+    text-align: center;
+    font-family: Product Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+.main-cards{
+    background: #F8F8F8;
+    padding: 0px 40px;
+
+}
+.cards{
+    
+}
+.main-cards img{
+    padding-top: 30px;
+    width:  100px;
+    height: 100px;
+}
+.cards-img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.destination-img{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+.destination-content h2{
+    color: #2C2C2C;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination-content i{
+    display: inline;
+    color: #FF715B;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.destination-p{
+    color: #A79997;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+.destination-content a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #FF715B;
+    padding: 20px 34px;
+}
+.offering-content{
+    display: flex;
+}
+.offering-content h2{
+    color: #2C2C2C;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;    
+}
+.offering-text{
+   padding-left: 150px;
+}
+.offering-text p{
+    color: #A79997;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+.offering-content h4{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.offering-content{
+    padding-top: 150px;
+}
+.offering-icon{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.offering-icon{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.offering-img{
+    position: relative;
+    padding-bottom: 259px;
+}
+.choose-content h2{
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 75px;
+}
+
+.choose-img{
+    display: flex;
+    
+}
+.chooseimg{
+    transform: translateY(50%);
+}
+.choose-content a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #FF715B;
+    padding: 20px 41px;
+    
+}
+.choose-div{
+    padding-left: 585px;
+    padding-top: 200px;
+    
+}
